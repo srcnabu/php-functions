@@ -56,11 +56,11 @@
 				<h3>Using <code>strtolower()</code></h3>
 				<?php
 					
-					$text = "Twinkle Twinkle Little STAR!"
+					$text = "Twinkle Twinkle Little STAR!";
 
-					strtolower($text);
+					$lotext = strtolower($text);
 
-					echo "$text";
+					echo "$lotext";
 					
 				?>
 				
